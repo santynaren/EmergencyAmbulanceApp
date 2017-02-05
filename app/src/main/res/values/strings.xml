@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Emergency App (User)</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="blood_header">Choose the Blood group</string>
+    <string-array name="blood_group">
+        <item>O- </item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string name="disaster_header">Choose the Type of Disaster</string>
+    <string-array name="type_of_disaster">
+        <item>Fire</item>
+        <item>Sea Drwoning</item>
+        <item>Earthquake Alert</item>
+        <item>Structure Damage</item>
+        <item>Trap</item>
+        <item>Tree Fall</item>
+
+    </string-array>
+    <string name="crime_header">Choose the Type of Disaster</string>
+    <string-array name="type_of_crime">
+        <item>Theft</item>
+        <item>Kidnap</item>
+        <item>Violence</item>
+        <item>Eve-teasing</item>
+        <item>Rape</item>
+    </string-array>
+</resources>

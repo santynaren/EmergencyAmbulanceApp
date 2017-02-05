@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_accident__information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    tools:context="com.nagajothy.smazee.emergency.Accident_Information">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:paddingLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/landmark"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Landmark"
+                        android:maxLines="1" />
+
+                    <!--   <Button
+                           android:layout_width="50dp"
+                           android:layout_height="50dp"
+                           android:text="L" />-->
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Phone Number"
+                    android:maxLines="1" />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/victims"
+                  android:hint="Number of Victims"/>
+
+                <EditText
+
+                    android:id="@+id/reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Reason"
+                    android:paddingLeft="5dp"
+                    android:gravity="top"
+                    android:maxLines="6"
+                    android:minLines="3" />
+                <!--  <TextView
+                      android:layout_marginTop="10dp"
+                      android:paddingLeft="5dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Emergency Level"
+                      android:textSize="20sp"
+                      />
+                 <SeekBar
+                      android:layout_marginTop="10dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="50dp"
+                      android:max="10"
+                      android:id="@+id/emergency_level" />
+                  <RelativeLayout
+                      android:paddingLeft="15dp"
+                      android:paddingRight="15dp"
+                      android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+
+                      <TextView
+                          android:layout_alignParentLeft="true"
+                          android:layout_width="wrap_content"
+                          android:text="Low"
+                          android:layout_height="wrap_content" />
+                      <TextView
+                          android:layout_centerHorizontal="true"
+                          android:layout_width="wrap_content"
+                          android:text="Medium"
+                          android:layout_height="wrap_content" />
+                      <TextView
+                          android:text="High"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" />
+                  </RelativeLayout>-->
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="#0099d9"
+                        android:textColor="#fff"
+                        android:id="@+id/popup_submit"
+                        android:onClick="accidentpass"
+                        android:text="SUBMIT"/>
+                    <Button
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="5dp"
+                        android:background="#fff"
+                        android:textColor="#0099d9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SKIP"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</RelativeLayout>

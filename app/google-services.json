@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "881496022610",
+    "firebase_url": "https://emergency-aa89d.firebaseio.com",
+    "project_id": "emergency-aa89d",
+    "storage_bucket": "emergency-aa89d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881496022610:android:600c8f795a836d15",
+        "android_client_info": {
+          "package_name": "com.nagajothy.smazee.emergency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881496022610-uc77qm7ogbk8lfoaboh4f44o0pttj3mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8KZf8iWolNtyQzAaL6eO1GpONYsEOlFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881496022610-uc77qm7ogbk8lfoaboh4f44o0pttj3mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
